@@ -1,0 +1,120 @@
+@font-face
+{
+    font-family: serif;
+    src: url(../fonts/Caladea-Bold.ttf);
+    font-family: "corps";
+    src: url(../fonts/Aileron-Regular.otf);
+}
+
+nav
+/* {
+    text-align: center;
+    right: 5%;
+    z-index: 1030;
+    
+} */
+#navbarmenu li {
+    margin-top: 20px;
+
+    text-align: right;
+}
+
+#navbarmenu {
+    position: fixed;
+    z-index: 1030;
+    list-style: none;
+    right: 0;
+    top: 0;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+header
+{
+    background-image:url("../img/Clipboard.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position : bottom;
+    margin-bottom: 400px;
+}
+
+h1
+{
+    font-family: serif;
+}
+
+h2
+{
+    padding-bottom: 30px;
+}
+
+footer
+{
+    text-align: right;
+    background-color: #D63C37;
+    
+}
+
+h5
+{
+    padding-bottom: 30px;
+    text-align: right;
+    padding-top: 200px;
+}
+
+h6,h5
+{
+    color: white;
+}
+
+
+.star::before
+{
+    content:"☆";
+    left: -50px;
+    position: absolute;
+    color: #D63C37;
+
+}
+.heart::before
+{
+    content:"♡";
+    left: -50px;
+    position: absolute;
+    color: #D63C37;
+}
+
+.moon::before
+{
+    content:"☾";
+    left: -50px;
+    position: absolute;
+    color: #D63C37;
+}
+p
+{
+    text-align: justify;
+    font-family: "corps";
+}
+
+li
+{
+   list-style-type: none; 
+   color: black;
+}
+.barre1, .barre2, .barre3
+{
+    background: black;
+    width: 20px;
+    padding: 2px;
+    margin: 5px;
+    right: 0;
+    top: 0;
+    border-radius: 30px;
+
+}
+
+.mark1
+{
+    color: #D63C37;
+    text-decoration: underline;
+}
